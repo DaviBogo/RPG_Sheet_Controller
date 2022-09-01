@@ -7,6 +7,10 @@ RF4: O mestre deve ter acesso às fichas dos jogadores
 RF5: O mestre deve poder adicionar e remover itens às fichas dos jogadores
 RF6: O mestre deve poder adicionar e remover pontos de vida dos jogadores
 RF7: O mestre deve poder adicionar e remover experiência dos jogadores
+RF8: O mestre deve poder gerenciar uma biblioteca com os items existentes em sua campanha
+RF9: Os jogadores podem sugerir items novos ao mestre (RNF8)
+RF10: Os jogadores devem poder enviar de itens para outros jogadores
+
 
 # Requisitos não-Funcionais
 
@@ -27,6 +31,7 @@ b) Pode-se utilizar interface gráfica disponível em outros projetos, citando a
 RNF6: A interface gráfica deve ser desacoplada do restante do sistema, para que seja possível
 realizar testes de integração da comunicação sem depender da interface gráfica.
 RNF7: A ficha de um personagem possuir as seguintes informações:
-a) Pontos de vida, uma unidade numérica e editável.
+a) Pontos de vida, uma unidade numérica e editável, com valor máximo indefinido e mínimo 0.
 b) Itens, objetos com nome, preço e descrição, que podem ser adicionados ou removidos, porém não editáveis.
-c) Experiência, uma unidade numérica que pode ser editável.
+c) Experiência, uma unidade numérica que pode ser editável, sem valor máximo e com mínimo 0.
+RNF8: Quando um item for sugerido ao mestre, o mestre tem a opção de adicionar o item à sua biblioteca ou não.

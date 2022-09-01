@@ -1,6 +1,10 @@
 # Mensagens jogador -> jogador:
 
+- Enviar item;
+
 # Mensagens jogador -> mestre:
+
+- Sugerir item novo;
 
 # Mensagens mestre -> jogador:
 
